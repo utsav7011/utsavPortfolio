@@ -1,0 +1,264 @@
+body{
+    background-color: #212529;
+    /* to hide the scroll bar : */
+    overflow-x:hidden ;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.red-dot{
+    color: red;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.brandText{
+    font-size: 2.5rem;
+}
+
+
+.fontBold:hover{
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.nav-item:hover{
+    color: red;
+}
+.navbar-brand{
+    font-weight: bold;
+
+}
+
+.navbar{
+    padding-bottom: 6rem;
+}
+
+
+.home{
+    background-image: url(headbackground.PNG);
+    width: 100%;
+     height: 790px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 90px;
+
+    padding-top:35rem ;
+
+    /* to set the background image dynamically from internet */
+    /* result - working perfectly fine */
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+
+
+.jain{
+    color: red;
+}
+
+
+
+
+
+/* home ends */
+
+
+
+
+
+/* about Me page : */
+
+.aboutMe{
+
+    color: white;
+    text-align: center;
+    padding:10% 10% ;
+}
+
+.space{
+    padding: 4rem;
+}
+.five{
+    font-size: 17rem;
+}
+.five:hover{
+    color: red;
+}
+
+
+.row{
+    text-align: center;
+}
+
+.text{
+    
+    text-align: center;
+    padding-top: 15%;
+    font-size: 1.5rem;
+    font-family: Pacifico,cursive;
+    line-height: 1.5;
+}
+
+
+/* about me page ends */
+
+
+/* projects :  */
+
+.projects{
+
+
+    padding: 10% 14%;
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.redColon{
+    color:red;
+}
+
+
+
+.textMaterial{
+    
+    font-family: cursive;
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+}
+
+
+
+/* projects ends :  */
+
+
+
+
+/* education */
+
+.education{
+    padding: 10% 10%;
+    text-align: center;
+    color: white;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Indie Flower', cursive;
+}
+/* icons */
+.icon{
+    color: #8f8f8f;
+}
+
+.icon:hover{
+    color: #fff;
+}
+
+/* rows */
+
+.edrow{
+    transition: box-shadow 0.3s ease-in-out;
+}
+.edrow:hover{
+
+    box-shadow: 0px 5px  #8f8f8f;   
+
+}
+
+
+/* year */
+.year{
+    font-size: 2.5rem;
+}
+
+/* institute Name ;  */
+.instituteName{
+    font-size:1.5rem ;
+}
+
+/* institute dEscription :  */
+
+.instituteDes{
+    color: #8f8f8f;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.instituteDes:hover{
+    color: red;
+}
+
+
+/* What u did At the institute :  */
+.description{
+    font-size: 1.5rem;
+    color: #8f8f8f;
+}
+
+.description:hover{
+    color: white;
+}
+
+
+
+/* contacts */
+
+.contact{
+    text-decoration: none;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    
+}
+
+.contact a{
+    color: #8f8f8f;
+    text-decoration: none;
+    border-bottom:  #8f8f8f;
+}
+
+.contact a:hover{
+    color: white;
+}
+
+.contactMaterial{
+    font-size: 6rem;
+    color: #8f8f8f;
+    text-align: center;
+}
+
+.contactMaterial:hover{
+    color: white;
+}
+
+
+@media screen and (max-width: 950px){
+    .home {
+        font-size: 45px;
+    }
+    
+    .textMaterial{
+        font-size: 3.5rem;
+    }
+
+    .contactMaterial{
+        font-size: 3.5rem   ;
+    }
+
+}
